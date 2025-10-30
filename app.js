@@ -3,7 +3,7 @@ const registerServiceWorker = () => {
         console.log('Registering SW...');
 
         navigator.serviceWorker
-            .register('sw.js', {scope: '/plain'})
+            .register('sw.js')
             .then((regis) => console.log('SW Registered', regis))
             .catch((e) => console.log('SW Failed with ', e.message))
     }
