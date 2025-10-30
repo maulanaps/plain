@@ -1,7 +1,12 @@
 {
-  "short_name": "My App",
+  "short_name": "myapp",
   "name": "My App",
   "icons": [
+    {
+      "src": "settings.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
     {
       "src": "settings.png",
       "sizes": "512x512",
