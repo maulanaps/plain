@@ -8,8 +8,9 @@ const cacheResources = async (resources) => {
 
 self.addEventListener('install', (event) => {
     event.waitUntil(cacheResources([
-        '/',
-        'app.js'
+        'app.js',
+        'index.html',
+        'settings.png',
     ]))
 
     console.log('Service Worker installed ', VERSION);
