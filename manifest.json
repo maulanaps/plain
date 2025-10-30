@@ -3,7 +3,7 @@
   "name": "My App",
   "icons": [
     {
-      "src": "/settings.png",
+      "src": "settings.png",
       "sizes": "512x512",
       "type": "image/png"
     }
